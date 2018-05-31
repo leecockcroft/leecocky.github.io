@@ -1,0 +1,406 @@
+*
+{
+
+	margin:0;
+	padding:0;
+
+}
+
+
+#wrapper
+{
+	
+
+}
+
+/* *********************************************
+
+NAV BAR
+
+*************************************** */
+
+.nav-bar
+{
+
+	display:flex;
+	justify-content: center;
+	background-color: #383E4C;
+	padding:22px;
+	flex-wrap: wrap;
+	width:100%;
+
+}
+.nav-bar li
+{
+
+
+	list-style:none;
+	   font-size:20px;
+	          padding: 19px 15px;
+	       border:1px solid white;
+	       margin:5px;
+	       border-radius:5px;
+	}
+	
+
+
+.nav-bar li a
+{
+
+	 color:#fff;
+}
+
+
+
+
+/* ***********************************
+HEADER
+
+********************** */
+header
+{
+	background:url('../img/strip.jpg');
+	width:100%;
+	height:50vh;
+	
+	background-size:cover;
+	background-repeat:no-repeat;
+	    background-position: center center;
+	    margin:0;
+	
+}
+
+
+
+.header-text
+{
+	    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    right: 4px;
+    line-height: 1.4;
+  
+}
+
+.header-text h3
+{
+	font-size:50px;
+	text-shadow:2px 2px #000;
+}
+.header-text p
+{
+	    font-size: 1.5em;
+    text-shadow: 2px 2px #000;
+    
+}
+
+.img-header
+{
+	max-width:100%;
+}
+
+
+/* *******************
+
+MAIN
+*********************/
+
+main
+{
+	display:flex;
+	flex-direction:column;
+	    margin: auto;
+width:90%;
+    padding-top: 35px;
+      
+}
+
+.main-text
+{
+	text-align:center;
+	line-height:1.5;
+}
+
+.columns
+{
+	        
+    background: #F2F2F2;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    transition:all 3s;
+    line-height: 1.7;
+
+}
+
+.columns:hover
+{
+	transform:scale(1.1);
+
+	
+}
+
+.columns p
+{
+	    width: 90%;
+    text-align: center;
+    padding: 17px;
+}
+
+
+
+
+.columns img
+{
+	max-width:100%;
+	margin-top:10px;
+}
+.columns h3
+{
+	text-align:center;
+}
+
+
+.green
+{
+	color:#178A27;
+}
+
+.blue
+{
+	color: #1686C1;
+}
+
+.green-back
+{
+	background:#178A27;
+}
+
+.blue-back
+{
+	background:#1686C1;
+}
+
+button
+{
+	    padding: 11px;
+}
+
+
+
+#main-section
+{
+	width:90%;
+	margin:auto;
+}
+
+
+.services
+{
+	background-image:url('../img/vegas.jpg');
+	height:50vh;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+}
+
+.service-text
+{
+	color:#fff;
+	position:relative;
+	top:100px;
+	text-align:center;
+	line-height:1.5;
+	font-family:"Open Sans", Helvetica, Arial, sans-serif!important;
+
+
+}
+.service-text p
+{
+	width:75%;
+	margin:auto;
+}
+
+.row-of-4
+{
+width:90%;
+margin:auto;
+}
+
+
+.topics
+{
+padding:5px;
+line-height:1.4;
+
+}
+
+.topics table
+{
+	text-align:center;
+}
+.topics h2
+{
+	text-align:center;
+	border:1px:solid black;
+	background-color:gray;
+	opacity: 0.3;
+	color:black;
+}
+
+.roulette
+{
+	transition:transform 4s;
+
+}
+
+.roulette:hover
+{
+	transform:rotate(360deg);
+}
+
+.scoreboard {
+  background: #333;
+  width: 100%;
+  margin: 70px auto;
+  box-shadow: 0 4px 0px #333;
+  border-radius: 15px;
+  padding-bottom: 10px;
+}
+.clickhere
+{
+	font-size:1.5em;
+	border:2px dotted black;
+	background-color:red;
+	color:#fff;
+	padding:5px;
+	border-radius:10px;
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width:320px){
+
+
+nav
+{
+	display:none;
+}
+
+
+}
+
+
+
+@media only screen and (min-width:720px)
+{
+
+
+	header
+	{
+		    background-attachment: fixed; 
+	}
+nav
+{
+	display:block;
+}
+	main
+	{
+		flex-direction:row;
+	}
+
+	.columns
+	{
+		flex-basis: 30%;
+		    margin-top: 20px;
+	}
+
+
+	#main-section
+	{
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+
+	}
+
+#main-section .columns
+{
+	flex-basis:45%;
+}
+
+
+.row-of-4
+{
+	display:flex;
+	
+	flex-wrap:wrap;
+}
+
+.row-of-4 .columns
+{
+	padding-left:5px;
+	flex-basis: 45%;
+}
+
+.flex-topic
+{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+
+.flex-topic p
+{
+	flex-basis:50%;
+}
+
+.middle-section
+{
+	margin:0;
+}
+
+.flex-text,.middle-section
+{
+flex-basis:45%;
+}
+
+.flex-img
+{
+	flex-grow:1;
+}
+
+}
+
+
+
+@media only screen and (min-width:1020px)
+{
+.row-of-4 .columns
+{
+	flex-basis:20%;
+}
+
+
+
+#main-section
+{
+	width:100%;
+}
+
+#main-section .columns
+{
+
+	flex-basis:37%;
+}
+
+}
