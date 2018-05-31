@@ -22,5 +22,5 @@ xhttp.send();
 }
 
 
-loadDoc();
+
 
