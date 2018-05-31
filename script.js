@@ -18,7 +18,7 @@ function loadDoc() {
 
 }; 
 
-xhttp.open("GET", "test.json", true);  
+xhttp.open("GET", "task2.json", true);  
 xhttp.send();
 
 }
